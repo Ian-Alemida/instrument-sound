@@ -8,7 +8,7 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 // Estrutura de repetição ou condicional com for, ira se repetir enquanto 'i' for menor que a listaDeTeclas
 for (let i = 0; i < listaDeTeclas.length; i++) {
-        //agora a const 'tecla' tem o mesmo valor do incice da lista de teclas
+        //agora a const 'tecla' tem o mesmo valor do incice da listaDeTeclas, ou seja, o mesmo valor q a tecla q o usuario esta precionando
     const tecla = listaDeTeclas[i]
         //a const 'instrumento' guarda o valor da segunda class da const 'tecla'
     const instrumento = tecla.classList[1]
