@@ -1,7 +1,18 @@
 // Reproduz o som desejado recebendo o id dele
 function tocaSom (idElementAudio){
-    document.querySelector(idElementAudio).play();
+   const elemento =  document.querySelector(idElementAudio);
+   
+   if (elemento === null){
+    alert('Elemento não encontrado');
+   }
+   if (elemento != null){
+
+        if (elemento.localName === 'audio'){
+            elemento.play();
+        }
+   }
 }
+
 
 // Seleciona todos os elementos com a class ".tecla"
 const listaDeTeclas = document.querySelectorAll('.tecla');
