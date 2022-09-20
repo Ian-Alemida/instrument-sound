@@ -1,6 +1,6 @@
 <h1>Instrument-sound</h1>
 
-> status do projeto: Em desenvolvimento
+> status do projeto: Concluído
 
 Uma pagina com diversos botões que reproduzem o som de determinados instrumentos musicais.
 Criado para entender alguns conceitos de JavaScript na Web.
